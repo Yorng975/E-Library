@@ -1,31 +1,68 @@
-<ul class="navbar-nav mx-auto ">
-    <li class="nav-item   justify-content-center">
-        <a class="nav-link  active text-dark-blue link-hover" aria-current="page"
-            href="#">ទំព័រដើម <i class="fi fi-rr-home ps-1 pe-3"></i></a>
-    </li>
-    <li class="nav-item  dropdown">
-        <a class="nav-link  text-dark-blue" href="#" id="dropdownId" data-bs-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">ប្រភេទអត្ថបទ <i
-                class="fi fi-rr-angle-double-small-down ps-1 pe-3"></i></a>
-        <div class="dropdown-menu" aria-labelledby="dropdownId">
-            <a class="dropdown-item" href="#">Action 1</a>
-            <a class="dropdown-item" href="#">Action 2</a>
-        </div>
-    </li>
-    <li class="nav-item  ">
-        <a class="nav-link  text-dark-blue" href="#">អ្នកនិពន្ធ <i
-                class="fi fi-rr-user-pen ps-1 pe-3"></i></a>
-    </li>
-    <li class="nav-item  ">
-        <a class="nav-link  text-dark-blue" href="#">ចំណូលចិត្ត <i
-                class="fi fi-rr-heart ps-1 pe-3"></i></a>
-    </li>
-    <li class="nav-item  ">
-        <a class="nav-link  text-dark-blue" href="#">ទំនាក់ទំនង <i
-                class="fi fi-rr-mobile-button ps-1 pe-3"></i></a>
-    </li>
-    <li class="nav-item  ">
-        <a class="nav-link w-100 py-2  text-dark-blue" href="#">អំពីយើង <i
-                class="fi fi-rr-users-alt ps-1 pe-3"></i></a>
-    </li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="hs d-flex overflow-x-scroll Dangrek list-unstyled" id="myTab" role="tablist">
+        <li class="nav-item col-2 me-5" role="presentation">
+            <button class="nav-link active border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue"
+                id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab"
+                aria-controls="home-tab-pane" aria-selected="true">ប្រលោមលោក</button>
+        </li>
+        <li class="nav-item col-2 me-5" role="presentation">
+            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="profile-tab"
+                data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab"
+                aria-controls="profile-tab-pane" aria-selected="false">ការអប់រំ</button>
+        </li>
+        <li class="nav-item col-2 me-5" role="presentation">
+            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab"
+                data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
+                aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
+        </li>
+        <li class="nav-item col-2 me-5" role="presentation">
+            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab"
+                data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
+                aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
+        </li>
+        <li class="nav-item col-2 me-5" role="presentation">
+            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab"
+                data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
+                aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
+        </li>
+        <li class="nav-item col-2 me-5" role="presentation">
+            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab"
+                data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
+                aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
+        </li>
+    </div>
+    <ul class=" mb-3 d-flex overflow-x-scroll Dangrek" id="pills-tab">
+        <li class="nav-item px-5" role="presentation">
+            <a class="nav-link active" type="button">For You</a>
+        </li>
+        <li class="nav-item px-5" role="presentation">
+            <a class="nav-link" type="button">Development</a>
+        </li>
+        <li class="nav-item px-5" role="presentation">
+            <a class="nav-link" type="button">Cyber Security</a>
+        </li>
+        <li class="nav-item px-5" role="presentation">
+            <a class="nav-link" type="button">Smart IoT</a>
+        </li>
+        <li class="nav-item px-5" role="presentation">
+            <a class="nav-link" type="button">Programming</a>
+        </li>
+        <li class="nav-item ms-auto px-0" role="presentation">
+            <a class="nav-link border-0 date-picker" type="button" id="date-picker">
+                <img src="assets/images/icon/png/filter.png" width="28px" alt="">
+            </a>
+        </li>
+    </ul>
+</body>
+
+</html>
