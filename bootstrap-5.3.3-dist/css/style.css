@@ -106,33 +106,6 @@ body {
   font-size: 20px !important;
 }
 
-.shadow-custom {
-  box-shadow: 0 1px 6px #1539a2;
-}
-.card-title {
-  margin-bottom: 20px;
-  color: black;
-  margin-top: 7%;
-  text-decoration: underline;
-}
-.card-title2 {
-  margin-bottom: 20px;
-  color: black;
-  text-decoration: underline;
-}
-
-.circle-icon {
-  width: 40px !important;
-  height: 40px !important;
-  border-radius: 50%;
-  background-color: #316ff6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 20px !important;
-}
-
 footer .bg-curve {
   position: relative;
   width: 100%;
