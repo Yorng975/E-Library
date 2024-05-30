@@ -1,68 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <style>footer .bg-curve{
+        position: relative;
+        width: 100%;
+        height: 350px;
+        background-color: red;
+        border-radius: 50% 100% 0 0;
+    }
+    
+    footer .bg-curve::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -2px;
+        transform: rotate(0deg);
+        z-index: -2;
+        width: 100%;
+        height: 250px;
+        background-color: yellow;
+        border-radius: 50% 100% 0 0;
+    }
+    
+    </style>
 </head>
-
 <body>
-    <div class="hs d-flex overflow-x-scroll Dangrek list-unstyled" id="myTab" role="tablist">
-        <li class="nav-item col-2 me-5" role="presentation">
-            <button class="nav-link active border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue"
-                id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab"
-                aria-controls="home-tab-pane" aria-selected="true">ប្រលោមលោក</button>
-        </li>
-        <li class="nav-item col-2 me-5" role="presentation">
-            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="profile-tab"
-                data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab"
-                aria-controls="profile-tab-pane" aria-selected="false">ការអប់រំ</button>
-        </li>
-        <li class="nav-item col-2 me-5" role="presentation">
-            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab"
-                data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
-                aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
-        </li>
-        <li class="nav-item col-2 me-5" role="presentation">
-            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab"
-                data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
-                aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
-        </li>
-        <li class="nav-item col-2 me-5" role="presentation">
-            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab"
-                data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
-                aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
-        </li>
-        <li class="nav-item col-2 me-5" role="presentation">
-            <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab"
-                data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
-                aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
-        </li>
-    </div>
-    <ul class=" mb-3 d-flex overflow-x-scroll Dangrek" id="pills-tab">
-        <li class="nav-item px-5" role="presentation">
-            <a class="nav-link active" type="button">For You</a>
-        </li>
-        <li class="nav-item px-5" role="presentation">
-            <a class="nav-link" type="button">Development</a>
-        </li>
-        <li class="nav-item px-5" role="presentation">
-            <a class="nav-link" type="button">Cyber Security</a>
-        </li>
-        <li class="nav-item px-5" role="presentation">
-            <a class="nav-link" type="button">Smart IoT</a>
-        </li>
-        <li class="nav-item px-5" role="presentation">
-            <a class="nav-link" type="button">Programming</a>
-        </li>
-        <li class="nav-item ms-auto px-0" role="presentation">
-            <a class="nav-link border-0 date-picker" type="button" id="date-picker">
-                <img src="assets/images/icon/png/filter.png" width="28px" alt="">
-            </a>
-        </li>
-    </ul>
+    <footer class="mt-5">
+        <div class="container-fluid d-flex align-items-center bg-curve">
+        </div>
+      </footer>
 </body>
-
 </html>

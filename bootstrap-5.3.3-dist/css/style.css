@@ -94,6 +94,7 @@ body {
   scrollbar-width: none;
 }
 
+<<<<<<< HEAD
 .circle-icon {
   width: 40px !important;
   height: 40px !important;
@@ -121,3 +122,38 @@ body {
     text-decoration: underline;
   }
   
+=======
+.circle-icon{
+    width: 40px!important;
+    height: 40px!important;
+    border-radius: 50%;
+    background-color: #316FF6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px!important;
+}
+
+footer .bg-curve{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #04125C;
+    border-radius: 50% 100% 0 0;
+}
+
+footer .bg-curve::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -2px;
+    transform: rotate(0deg);
+    z-index: -2;
+    width: 100%;
+    height: 250px;
+   
+    background-color: #92BDF9;
+    border-radius: 50% 100% 0 0;
+}
+>>>>>>> SeyhaCutegirl
