@@ -1,301 +1,528 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/style.css">
-    <link rel="stylesheet"
-        href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
-</head>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav class="navbar navbar-light navbar-expand-xl text-white fixed-top Dangrek py-3 px-4 blue-opacity-50">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo/Group 1 (1).png" width="85px" alt="">
-                </a>
-                <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                            Offcanvas
-                        </h5>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav mx-auto ">
-                            <li class="nav-item   justify-content-center">
-                                <a class="nav-link  active text-dark-blue link-hover" aria-current="page"
-                                    href="#">ទំព័រដើម <i class="fi fi-rr-home ps-1 pe-3"></i></a>
-                            </li>
-                            <li class="nav-item  dropdown">
-                                <a class="nav-link  text-dark-blue" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">ប្រភេទអត្ថបទ <i
-                                        class="fi fi-rr-angle-double-small-down ps-1 pe-3"></i></a>
-                                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                    <a class="dropdown-item" href="#">Action 1</a>
-                                    <a class="dropdown-item" href="#">Action 2</a>
-                                </div>
-                            </li>
-                            <li class="nav-item  ">
-                                <a class="nav-link  text-dark-blue" href="#">អ្នកនិពន្ធ <i
-                                        class="fi fi-rr-user-pen ps-1 pe-3"></i></a>
-                            </li>
-                            <li class="nav-item  ">
-                                <a class="nav-link  text-dark-blue" href="#">ចំណូលចិត្ត <i
-                                        class="fi fi-rr-heart ps-1 pe-3"></i></a>
-                            </li>
-                            <li class="nav-item  ">
-                                <a class="nav-link  text-dark-blue" href="#">ទំនាក់ទំនង <i
-                                        class="fi fi-rr-mobile-button ps-1 pe-3"></i></a>
-                            </li>
-                            <li class="nav-item  ">
-                                <a class="nav-link w-100 py-2  text-dark-blue" href="#">អំពីយើង <i
-                                        class="fi fi-rr-users-alt ps-1 pe-3"></i></a>
-                            </li>
-                        </ul>
-                        <form class="d-flex position-relative">
-                            <i class="fi fi-rr-search position-absolute" style="top: 30%; left: 12px;"></i>
-                            <input class="form-control me-2 rounded-5 shadow-none KantumruyPro"
-                                style="width: 300px; padding-left: 35px;" type="search" placeholder="ស្វែងរក...."
-                                aria-label="Search" />
-
-                        </form>
-                    </div>
-                </div>
+      <nav
+        class="navbar navbar-light navbar-expand-xl text-white fixed-top Dangrek py-3 px-4 blue-opacity-50"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo/Group 1 (1).png" width="85px" alt="" />
+          </a>
+          <button
+            class="navbar-toggler d-xl-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-        </nav>
-
+            <div class="offcanvas-body">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item justify-content-center">
+                  <a
+                    class="nav-link active text-dark-blue link-hover"
+                    aria-current="page"
+                    href="#"
+                    >ទំព័រដើម <i class="fi fi-rr-home ps-1 pe-3"></i
+                  ></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link text-dark-blue"
+                    href="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >ប្រភេទអត្ថបទ
+                    <i class="fi fi-rr-angle-double-small-down ps-1 pe-3"></i
+                  ></a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark-blue" href="#"
+                    >អ្នកនិពន្ធ <i class="fi fi-rr-user-pen ps-1 pe-3"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark-blue" href="#"
+                    >ចំណូលចិត្ត <i class="fi fi-rr-heart ps-1 pe-3"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark-blue" href="#"
+                    >ទំនាក់ទំនង <i class="fi fi-rr-mobile-button ps-1 pe-3"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link w-100 py-2 text-dark-blue"
+                    href="aboutMe.html"
+                    >អំពីយើង <i class="fi fi-rr-users-alt ps-1 pe-3"></i
+                  ></a>
+                </li>
+              </ul>
+              <form class="d-flex position-relative">
+                <i
+                  class="fi fi-rr-search position-absolute"
+                  style="top: 30%; left: 12px"
+                ></i>
+                <input
+                  class="form-control me-2 rounded-5 shadow-none KantumruyPro"
+                  style="width: 300px; padding-left: 35px"
+                  type="search"
+                  placeholder="ស្វែងរក...."
+                  aria-label="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <section>
-            <div class="container-fluid mt-5 blue-opacity-25 px-5">
+      <section>
+        <div class="container-fluid mt-5 blue-opacity-25 px-5">
+          <div class="row">
+            <div class="col-7">
+              <h1
+                class="text-banner Dangrek"
+                id="auto-type"
+                data-type='["SL ប្រភពចំណេះដឹងសម្រាប់អ្នកទាំងអស់គ្នា"]'
+                data-period="800"
+                style="margin-top: 20%"
+              ></h1>
+              <p class="KantumruyPro">
+                បណ្ណាល័ DSL គឺជាប្រភពនៃចំណេះដឹងនឹងការអប់ DSL
+                មានឯងសារគ្រប់ភេទសម្រាប់បំពេញតម្រូវការមនុស្សវ័យ គ្រប់វណ្ណៈ
+              </p>
+            </div>
+            <div class="col-xl-5 py-5 position-relative" style="margin-top: 5%">
+              <div class="blob"></div>
+              <img
+                src="img/banner/book.png"
+                class="object-fit-contain book position-absolute bottom-0"
+                alt=""
+              />
+              <div class="circle position-absolute end-0 top-0"></div>
+              <div class="book-rotate position-absolute p-3">
+                <img
+                  src="img/banner/book2.png"
+                  class="img-fluid"
+                  style="transform: rotate(330deg)"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container position-relative py-5">
+          <div class="hs__wrapper">
+            <div class="hs__header">
+              <div class="d-flex justify-content-between py-4">
+                <h2 class="Dangrek fw-bolder">សៀវភៅដែលកំពុងពេញនិយម</h2>
+                <div class="hs__arrows d-flex">
+                  <a
+                    class="arrow arrow-next circle-icon text-decoration-none"
+                    href="#"
+                    ><i
+                      class="fi fi-rr-arrow-small-left"
+                      style="height: 25px !important"
+                    ></i
+                  ></a>
+                  <a
+                    class="arrow arrow-prev circle-icon text-decoration-none ms-3"
+                    href="#"
+                    ><i
+                      class="fi fi-rr-arrow-small-right"
+                      style="height: 25px"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="hs d-flex overflow-x-scroll overflow-y-scroll">
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic1.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic2.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic3.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic4.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic5.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic6.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic7.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic8.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic9.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 pe-3">
+                <div class="card rounded-3 overflow-hidden">
+                  <img
+                    class="card-img-top"
+                    src="img/book/pic10.jpeg"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 my-5">
+        <div class="container">
+          <div class="row justify-content-center g-2">
+            <div class="col-xl-6 position-relative">
+              <img
+                src="img/banner/cute-book-512x512.png"
+                class="object-fit-cover position-absolute end-0 top-0"
+                width="100px"
+                alt=""
+              />
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <clipPath id="myClip">
+                  <path
+                    fill="#FF0066"
+                    d="M44.5,-75.9C58.4,-69.2,70.7,-58.6,76,-45.3C81.2,-32,79.4,-16,78.1,-0.7C76.9,14.6,76.3,29.1,71,42.3C65.7,55.5,55.7,67.4,43.1,72.6C30.5,77.9,15.2,76.6,1.1,74.7C-13,72.8,-26,70.1,-37,63.9C-48,57.7,-57.1,48,-64.7,36.7C-72.3,25.4,-78.4,12.7,-79.7,-0.8C-81,-14.3,-77.6,-28.5,-69.8,-39.4C-62,-50.3,-49.8,-57.8,-37.5,-65.4C-25.2,-73,-12.6,-80.6,1.4,-83C15.3,-85.4,30.7,-82.6,44.5,-75.9Z"
+                    transform="translate(100 100)"
+                  />
+                </clipPath>
+                <image
+                  href="img/banner/image.png"
+                  class="object-fit-contain h-100"
+                  clip-path="url(#myClip)"
+                />
+              </svg>
+              <img
+                src="img/banner/book3.png"
+                class="object-fit-cover w-25 position-absolute start-0 bottom-0"
+                alt=""
+              />
+            </div>
+            <div class="col-xl-6 pt-5 ps-5">
+              <h1 class="Dangrek fw-bolder text-dark-blue">
+                <span>DSL</span>
+                ផ្ដល់ជូនអត្ថប្រយោជន៍ដល់លោកអ្នកជាច្រើនទៅតាមតម្រូវការ
+                <img
+                  src="img/banner/emoji.png"
+                  class="img-fluid"
+                  width="50px"
+                  alt=""
+                />
+              </h1>
+              <p class="KantumruyPro fs-5 py-5">
+                ជាគេហទំព័រមួយប្រភេទដែលពោរពេញទៅដោយប្រភពនៃចំណេះដឹង
+                នឹងជាឃ្លាំងនៃសៀវភៅព្រោះថានៅក្នុងគេហទំព័រនេះមានសៀវភៅជាច្រើនប្រភេទមានទាំងសៀវភៅក្នុងស្រុក
+                និងក្រៅស្រុក មិនតែប៉ុណ្ណោះថែមទាំងមានជាប្រភេទសំឡេង និងវីដេអូទៀតផង
+              </p>
+              <div class="col-12">
                 <div class="row">
-                    <div class="col-7">
-                        <h1 class="text-banner Dangrek" id="auto-type"
-                            data-type='["SL ប្រភពចំណេះដឹងសម្រាប់អ្នកទាំងអស់គ្នា"]' data-period="800"
-                            style="margin-top: 20%;">
-                        </h1>
-                        <p class="KantumruyPro">បណ្ណាល័ DSL គឺជាប្រភពនៃចំណេះដឹងនឹងការអប់ DSL
-                            មានឯងសារគ្រប់ភេទសម្រាប់បំពេញតម្រូវការមនុស្សវ័យ គ្រប់វណ្ណៈ</p>
-                    </div>
-                    <div class="col-xl-5 py-5 position-relative" style="margin-top: 5%;">
-                        <div class="blob"></div>
-                        <img src="img/banner/book.png" class="object-fit-contain book position-absolute bottom-0"
-                            alt="">
-                        <div class="circle position-absolute end-0 top-0"></div>
-                        <div class="book-rotate position-absolute p-3">
-                            <img src="img/banner/book2.png" class="img-fluid" style="transform: rotate(330deg);" alt="">
-                        </div>
-                    </div>
+                  <div class="col-6 d-flex align-items-center">
+                    <img
+                      src="img/icon/add.png"
+                      width="50px"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <h5 class="Dangrek">សៀវភៅថ្មីរៀងរាល់ថ្ងៃ</h5>
+                  </div>
+                  <div class="col-6 d-flex align-items-center">
+                    <img
+                      src="img/icon/category.png"
+                      width="50px"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <h5 class="Dangrek">សៀវភៅថ្មីរៀងរាល់ថ្ងៃ</h5>
+                  </div>
+                  <div class="col-6 d-flex align-items-center pt-5">
+                    <img
+                      src="img/icon/24-hours.png"
+                      width="50px"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <h5 class="Dangrek">សៀវភៅថ្មីរៀងរាល់ថ្ងៃ</h5>
+                  </div>
+                  <div class="col-6 d-flex align-items-center pt-5">
+                    <img
+                      src="img/icon/reading.png"
+                      width="50px"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <h5 class="Dangrek">សៀវភៅថ្មីរៀងរាល់ថ្ងៃ</h5>
+                  </div>
                 </div>
+              </div>
+              <div class="col-5">
+                <button
+                  class="btn btn-primary py-2 fs-5 w-100 rounded-5 Dangrek mt-5"
+                >
+                  អំពីយើង
+                </button>
+              </div>
             </div>
-        </section>
-        <section>
-            <div class="container position-relative py-5">
-                <div class="hs__wrapper">
-                    <div class="hs__header">
-                        <div class="d-flex justify-content-between py-4">
-                            <h2 class="Dangrek fw-bolder">សៀវភៅដែលកំពុងពេញនិយម</h2>
-                            <div class="hs__arrows d-flex">
-                                <a class="arrow arrow-next circle-icon text-decoration-none" href="#"><i
-                                        class="fi fi-rr-arrow-small-left" style="height: 25px!important;"></i></a>
-                                <a class="arrow arrow-prev circle-icon text-decoration-none ms-3" href="#"><i
-                                        class="fi fi-rr-arrow-small-right" style="height: 25px;"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hs d-flex overflow-x-scroll overflow-y-scroll">
-                        <div class="col-xl-3  pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic1.jpeg" alt="Image" />
-                            </div>
-                        </div>
-                        <div class="col-xl-3 pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic2.jpeg" alt="Image" />
-                            </div>
-                        </div>
-                        <div class="col-xl-3 pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic3.jpeg" alt="Image" />
-
-                            </div>
-                        </div>
-                        <div class="col-xl-3 pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic4.jpeg" alt="Image" />
-
-                            </div>
-                        </div>
-                        <div class="col-xl-3 pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic5.jpeg" alt="Image" />
-
-                            </div>
-                        </div>
-                        <div class="col-xl-3 pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic6.jpeg" alt="Image" />
-
-                            </div>
-                        </div>
-                        <div class="col-xl-3 pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic7.jpeg" alt="Image" />
-
-                            </div>
-                        </div>
-                        <div class="col-xl-3 pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic8.jpeg" alt="Image" />
-
-                            </div>
-                        </div>
-                        <div class="col-xl-3 pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic9.jpeg" alt="Image" />
-
-                            </div>
-                        </div>
-                        <div class="col-xl-3 pe-3">
-                            <div class="card rounded-3 overflow-hidden">
-                                <img class="card-img-top" src="img/book/pic10.jpeg" alt="Image" />
-
-                            </div>
-                        </div>
-                    </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="hs d-flex overflow-x-scroll overflow-y-scroll Dangrek list-unstyled"
+                id="myTab"
+                role="tablist"
+              >
+                <li class="nav-item col-2 me-5" role="presentation">
+                  <button
+                    class="nav-link active border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="home-tab-pane"
+                    aria-selected="true"
+                  >
+                    ប្រលោមលោក
+                  </button>
+                </li>
+                <li class="nav-item col-2 me-5" role="presentation">
+                  <button
+                    class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile-tab-pane"
+                    aria-selected="false"
+                  >
+                    ការអប់រំ
+                  </button>
+                </li>
+                <li class="nav-item col-2 me-5" role="presentation">
+                  <button
+                    class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue"
+                    id="contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#contact-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="contact-tab-pane"
+                    aria-selected="false"
+                  >
+                    សម្រាប់កូនក្មេង
+                  </button>
+                </li>
+                <li class="nav-item col-2 me-5" role="presentation">
+                  <button
+                    class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue"
+                    id="contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#contact-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="contact-tab-pane"
+                    aria-selected="false"
+                  >
+                    សម្រាប់កូនក្មេង
+                  </button>
+                </li>
+                <li class="nav-item col-2 me-5" role="presentation">
+                  <button
+                    class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue"
+                    id="contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#contact-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="contact-tab-pane"
+                    aria-selected="false"
+                  >
+                    សម្រាប់កូនក្មេង
+                  </button>
+                </li>
+                <li class="nav-item col-2 me-5" role="presentation">
+                  <button
+                    class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue"
+                    id="contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#contact-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="contact-tab-pane"
+                    aria-selected="false"
+                  >
+                    សម្រាប់កូនក្មេង
+                  </button>
+                </li>
+              </div>
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="home-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                  tabindex="0"
+                >
+                  Seyha
                 </div>
-
-            </div>
-        </section>
-        <section class="py-5 my-5">
-            <div class="container">
-                <div class="row justify-content-center g-2">
-                    <div class="col-xl-6 position-relative">
-                        <img src="img/banner/cute-book-512x512.png"
-                            class="object-fit-cover position-absolute end-0 top-0" width="100px" alt="">
-                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                            <clipPath id="myClip">
-                                <path fill="#FF0066"
-                                    d="M44.5,-75.9C58.4,-69.2,70.7,-58.6,76,-45.3C81.2,-32,79.4,-16,78.1,-0.7C76.9,14.6,76.3,29.1,71,42.3C65.7,55.5,55.7,67.4,43.1,72.6C30.5,77.9,15.2,76.6,1.1,74.7C-13,72.8,-26,70.1,-37,63.9C-48,57.7,-57.1,48,-64.7,36.7C-72.3,25.4,-78.4,12.7,-79.7,-0.8C-81,-14.3,-77.6,-28.5,-69.8,-39.4C-62,-50.3,-49.8,-57.8,-37.5,-65.4C-25.2,-73,-12.6,-80.6,1.4,-83C15.3,-85.4,30.7,-82.6,44.5,-75.9Z"
-                                    transform="translate(100 100)" />
-                            </clipPath>
-                            <image href="img/banner/image.png" class=" object-fit-contain h-100"
-                                clip-path="url(#myClip)" />
-                        </svg>
-                        <img src="img/banner/book3.png" class="object-fit-cover w-25 position-absolute start-0 bottom-0"
-                            alt="">
-                    </div>
-                    <div class="col-xl-6 pt-5 ps-5">
-                        <h1 class="Dangrek fw-bolder text-dark-blue"> <span>DSL</span>
-                            ផ្ដល់ជូនអត្ថប្រយោជន៍ដល់លោកអ្នកជាច្រើនទៅតាមតម្រូវការ <img src="img/banner/emoji.png"
-                                class="img-fluid" width="50px" alt=""></h1>
-                        <p class="KantumruyPro fs-5 py-5">ជាគេហទំព័រមួយប្រភេទដែលពោរពេញទៅដោយប្រភពនៃចំណេះដឹង
-                            នឹងជាឃ្លាំងនៃសៀវភៅព្រោះថានៅក្នុងគេហទំព័រនេះមានសៀវភៅជាច្រើនប្រភេទមានទាំងសៀវភៅក្នុងស្រុក
-                            និងក្រៅស្រុក មិនតែប៉ុណ្ណោះថែមទាំងមានជាប្រភេទសំឡេង និងវីដេអូទៀតផង</p>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-6 d-flex align-items-center ">
-                                    <img src="img/icon/add.png" width="50px" class="img-fluid" alt="">
-                                    <h5 class="Dangrek">សៀវភៅថ្មីរៀងរាល់ថ្ងៃ</h5>
-                                </div>
-                                <div class="col-6 d-flex align-items-center ">
-                                    <img src="img/icon/category.png" width="50px" class="img-fluid" alt="">
-                                    <h5 class="Dangrek">សៀវភៅថ្មីរៀងរាល់ថ្ងៃ</h5>
-                                </div>
-                                <div class="col-6 d-flex align-items-center pt-5">
-                                    <img src="img/icon/24-hours.png" width="50px" class="img-fluid" alt="">
-                                    <h5 class="Dangrek">សៀវភៅថ្មីរៀងរាល់ថ្ងៃ</h5>
-                                </div>
-                                <div class="col-6 d-flex align-items-center pt-5">
-                                    <img src="img/icon/reading.png" width="50px" class="img-fluid" alt="">
-                                    <h5 class="Dangrek">សៀវភៅថ្មីរៀងរាល់ថ្ងៃ</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <button class="btn btn-primary py-2 fs-5 w-100 rounded-5 Dangrek mt-5">
-                                អំពីយើង
-                            </button>
-
-                        </div>
-                    </div>
+                <div
+                  class="tab-pane fade"
+                  id="profile-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                  tabindex="0"
+                >
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae, labore eaque nobis molestiae voluptate totam odit
+                  obcaecati velit sint excepturi laborum aspernatur libero
+                  nostrum voluptatibus, veniam vitae omnis eveniet minus?
                 </div>
-
-            </div>
-
-        </section>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 ">
-                        <div class="hs d-flex overflow-x-scroll overflow-y-scroll Dangrek list-unstyled" id="myTab" role="tablist" >
-                            <li class="nav-item col-2 me-5" role="presentation" >
-                                <button class="nav-link active border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="home-tab" data-bs-toggle="tab"
-                                    data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
-                                    aria-selected="true">ប្រលោមលោក</button>
-                            </li>
-                            <li class="nav-item col-2 me-5" role="presentation" >
-                                <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="profile-tab" data-bs-toggle="tab"
-                                    data-bs-target="#profile-tab-pane" type="button" role="tab"
-                                    aria-controls="profile-tab-pane" aria-selected="false">ការអប់រំ</button>
-                            </li>
-                            <li class="nav-item col-2 me-5" role="presentation" >
-                                <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab" data-bs-toggle="tab"
-                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
-                                    aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
-                            </li><li class="nav-item col-2 me-5" role="presentation" >
-                                <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab" data-bs-toggle="tab"
-                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
-                                    aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
-                            </li><li class="nav-item col-2 me-5" role="presentation" >
-                                <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab" data-bs-toggle="tab"
-                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
-                                    aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
-                            </li><li class="nav-item col-2 me-5" role="presentation" >
-                                <button class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue" id="contact-tab" data-bs-toggle="tab"
-                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
-                                    aria-controls="contact-tab-pane" aria-selected="false">សម្រាប់កូនក្មេង</button>
-                            </li>
-                        </div>
-                        <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
-                                aria-labelledby="home-tab" tabindex="0">Seyha</div>
-                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
-                                tabindex="0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, labore eaque nobis molestiae voluptate totam odit obcaecati velit sint excepturi laborum aspernatur libero nostrum voluptatibus, veniam vitae omnis eveniet minus?</div>
-                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                                tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quos blanditiis cupiditate rerum officiis veniam, quod vel tempora placeat voluptatum! Minus tempora libero facilis tempore temporibus tenetur placeat suscipit id!</div>
-                            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
-                                tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad labore excepturi ipsa pariatur tempora obcaecati temporibus rem eius deserunt, nam asperiores nisi ipsam. Quod laudantium reiciendis perspiciatis ea inventore.</div>
-                        </div>
-                    </div>
-                    
+                <div
+                  class="tab-pane fade"
+                  id="contact-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="contact-tab"
+                  tabindex="0"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis quos blanditiis cupiditate rerum officiis veniam,
+                  quod vel tempora placeat voluptatum! Minus tempora libero
+                  facilis tempore temporibus tenetur placeat suscipit id!
                 </div>
+                <div
+                  class="tab-pane fade"
+                  id="disabled-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="disabled-tab"
+                  tabindex="0"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore, ad labore excepturi ipsa pariatur tempora obcaecati
+                  temporibus rem eius deserunt, nam asperiores nisi ipsam. Quod
+                  laudantium reiciendis perspiciatis ea inventore.
+                </div>
+              </div>
             </div>
-
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
     <script src="js/text_run.js"></script>
     <script src="js/scroll_card.js"></script>
-</body>
-
+  </body>
 </html>
