@@ -4,33 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>footer .bg-curve{
-        position: relative;
-        width: 100%;
-        height: 350px;
-        background-color: red;
-        border-radius: 50% 100% 0 0;
-    }
-    
-    footer .bg-curve::before{
-        content: "";
-        position: absolute;
-        left: 0;
-        top: -2px;
-        transform: rotate(0deg);
-        z-index: -2;
-        width: 100%;
-        height: 250px;
-        background-color: yellow;
-        border-radius: 50% 100% 0 0;
-    }
-    
-    </style>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/style.css">
 </head>
 <body>
-    <footer class="mt-5">
-        <div class="container-fluid d-flex align-items-center bg-curve">
+    <div class="row">
+
+    
+    <div class="col-6">
+        <div class="card  card-fold bg-danger" style="background-image:url(img/banner/image.png); background-position: center left; background-size: cover; height: 300px;">
+            <!-- Card featured -->
+            <span class="card-featured" title="Featured post"><i class="fas fa-star"></i></span>
+            <!-- Card Image overlay -->
+            
         </div>
-      </footer>
+    </div>
+</div>
 </body>
 </html>
