@@ -1,61 +1,65 @@
 @font-face {
-    font-family: Dangrek-Regular;
-    src: url(../../font/Dangrek-Regular.ttf);
+  font-family: Dangrek-Regular;
+  src: url(../../font/Dangrek-Regular.ttf);
 }
 
 @font-face {
-    font-family: KantumruyPro;
-    src: url(../../font/KantumruyPro-VariableFont_wght.ttf);
+  font-family: KantumruyPro;
+  src: url(../../font/KantumruyPro-VariableFont_wght.ttf);
 }
-body{
-    background-color: #ddd;
+body {
+  background-color: #ddd;
 }
-.Dangrek{
-    font-family: Dangrek-Regular;
+.Dangrek {
+  font-family: Dangrek-Regular;
 }
-.KantumruyPro{
-    font-family: KantumruyPro;
+.KantumruyPro {
+  font-family: KantumruyPro;
 }
-.dark-blue{
-    background-color: #04125C;
-}.text-dark-blue{
-    color: #04125C!important;
+.dark-blue {
+  background-color: #04125c;
 }
-.blue-opacity-100{
-    background-color: #1941BA;
+.text-dark-blue {
+  color: #04125c !important;
 }
-.blue-opacity-75{
-    background-color: #316FF6;
-}.blue-opacity-50{
-    background-color: #92BDF9;
-}.blue-opacity-25{
-    background-color: rgba(146, 189, 249, .8);
+.blue-opacity-100 {
+  background-color: #1941ba;
+}
+.blue-opacity-75 {
+  background-color: #316ff6;
+}
+.blue-opacity-50 {
+  background-color: #92bdf9;
+}
+.blue-opacity-25 {
+  background-color: rgba(146, 189, 249, 0.8);
 }
 
-.link-hover:hover{
-    color: #316FF6!important;
+.link-hover:hover {
+  color: #316ff6 !important;
 }
-.blob{
-    background-image: url(../../img/banner/Untitled.png);
-    width: 500px;
-    height: 500px;
-    background-size: cover;
-    -webkit-background-position: center;
-    background-position: center center;
-    margin: 20px;
-    box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
-    box-shadow: 0 5px 5px 5px rgba(253, 253, 253, 0.8);
-    animation: animate 5s ease-in-out infinite;
-    transition: all 1s ease-in-out;
+.blob {
+  background-image: url(../../img/banner/Untitled.png);
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  -webkit-background-position: center;
+  background-position: center center;
+  margin: 20px;
+  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+  box-shadow: 0 5px 5px 5px rgba(253, 253, 253, 0.8);
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
 }
 
 @keyframes animate {
-    0%, 100%{
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
-    50%{
-        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    }
+  0%,
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
 }
 
 .text-banner {
@@ -63,40 +67,57 @@ body{
   font-weight: bolder;
 }
 
-.book{
-    width: 100px;
-    height: 100px;
-    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.6));
+.book {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.6));
 }
 
-.circle{
-    width: 60px;
-    height: 60px;
-    background-color: red;border-radius: 50%;
+.circle {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  border-radius: 50%;
 }
 
-.book-rotate{
-    width: 140px;
-    height: 140px;
-    background-color: #04125C;
-    border-radius: 20px;
-    transform: rotate(30deg);
-    top: 20%;
-    left: -5%;
+.book-rotate {
+  width: 140px;
+  height: 140px;
+  background-color: #04125c;
+  border-radius: 20px;
+  transform: rotate(30deg);
+  top: 20%;
+  left: -5%;
 }
 
-.hs{
-    scrollbar-width: none;
+.hs {
+  scrollbar-width: none;
 }
 
-.circle-icon{
-    width: 40px!important;
-    height: 40px!important;
-    border-radius: 50%;
-    background-color: #316FF6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 20px!important;
+.circle-icon {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  background-color: #316ff6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px !important;
 }
+
+.shadow-custom {
+  box-shadow: 0 1px 6px #1539a2;
+}
+.card-title {
+  margin-bottom: 20px;
+  color: black;
+  margin-top: 7%;
+  text-decoration: underline;
+}
+.card-title2 {
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: underline;
+  }
+  
