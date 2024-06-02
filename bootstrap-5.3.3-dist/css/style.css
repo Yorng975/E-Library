@@ -15,7 +15,6 @@
 
 body {
     background-color: white;
-    font-family: "Chenla", system-ui;
 }
 
 .Dangrek {
@@ -272,4 +271,128 @@ footer .ft-list ul li {
 
 .fs-7{
     font-size: 17px;
+}
+
+.btn-new {
+    border: 2px solid #316FF6;
+    background: none;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-new:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-1c:after {
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #316FF6;
+}
+
+.btn-1c:hover,
+.btn-1c:active {
+    color: #fff;
+}
+
+.btn-1c:hover:after,
+.btn-1c:active:after {
+    width: 100%;
+}
+
+.widget-header .widget-title {
+    position: relative;
+    z-index: 2;
+}
+
+.rt-section-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 16px;
+    transform: translateY(4px);
+    font-size: 2rem;
+    font-weight: 900px !important;
+}
+
+.rt-section-heading .rt-section-text {
+    color: #04125C
+}
+
+.rt-section-heading .rt-section-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #04125C;
+    display: inline-block;
+}
+
+.rt-section-heading .rt-section-line {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    height: 4px;
+}
+
+.letter-background {
+    line-height: 1.2;
+    color: rgba(0, 0, 0, .07);
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.overlay-hover, .icon-play{
+    display: none;
+    font-size: 60px;
+    transition: 0.5s;
+}
+.overlay-hover:hover, .overlay-hover:hover  .icon-play{
+    background-color: rgba(0, 0, 0, .4);
+    display: block;
+    transition: 0.5s;
+}
+.overlay-hover:hover  .icon-play{
+    background-color: transparent;
+    transition: 0.5s;
+}
+.category-hover{
+    transition: 0.5s;
+}
+.category-hover:hover, .category-hover:active{
+    background-color: #316FF6!important;
+    color: #fff!important;
+    transition: 0.5s;
+}
+
+.circle-icon-contac-us{
+    width: 50px;
+    height: 50px;
 }
