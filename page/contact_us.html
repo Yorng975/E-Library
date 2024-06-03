@@ -14,6 +14,7 @@
     <link rel='stylesheet'
         href='https://cdn-uicons.flaticon.com/2.4.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-brands/css/uicons-brands.css'>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
 </head>
 
 <body style="background-color: rgba(221, 221, 221, .5);">
@@ -22,7 +23,7 @@
         <nav class="navbar navbar-light navbar-expand-xl text-white fixed-top Dangrek py-3 px-4 blue-opacity-50">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo/Group 1 (1).png" width="85px" alt="">
+                    <img src="../img/logo/Group 1 (1).png" width="85px" alt="">
                 </a>
                 <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -92,48 +93,41 @@
                                 <form action="">
                                     <div class="col-12">
                                         <h1 class="py-3 text-center fw-bolder">តោះបញ្ចេញមតិ!</h1>
-                                        <p>សូមធ្វើការបំពេញព័ត៌មានខាងក្រោមដើម្បីផ្ដល់មិតិ ឬក៏មានចម្ងល់ផ្សេងៗ។
-                                            ពួកយើងរីករាយក្នុងការឆ្លើយតបពេញ ២៤ម៉ោង។</p>
+                                        <p>សូមធ្វើការបំពេញព័ត៌មានខាងក្រោមដើម្បីផ្ដល់មិតិ ឬក៏មានចម្ងល់ផ្សេងៗ។ ពួកយើងរីករាយក្នុងការឆ្លើយតបពេញ ២៤ម៉ោង។</p>
                                     </div>
                                     <hr class="my-4">
                                     <div class="row mb-4">
                                         <div class="col-6">
                                             <div class="">
-                                                <label for="" class="form-label">គោត្តនាម</label>
-                                                <input type="text" name="" id ="inputField" class="form-control"
-                                                    placeholder="គោត្តនាម" aria-describedby="helpId" required/>
+                                                <label for="inputFirstName" class="form-label">គោត្តនាម</label>
+                                                <input type="text" name="firstName" id="inputFirstName" class="form-control" placeholder="គោត្តនាម" aria-describedby="helpId"/>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="">
-                                                <label for="" class="form-label">នាមខ្លួន</label>
-                                                <input type="text" name="" id ="inputField" class="form-control"
-                                                    placeholder="នាមខ្លួន" aria-describedby="helpId"/>
+                                                <label for="inputLastName" class="form-label">នាមខ្លួន</label>
+                                                <input type="text" name="lastName" id="inputLastName" class="form-control" placeholder="នាមខ្លួន" aria-describedby="helpId"/>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="mb-4">
-                                        <label for="" class="form-label">អ៊ីម៉ែល</label>
-                                        <input type="email" name="" id ="inputField" class="form-control"
-                                            placeholder="example@gmail.com" aria-describedby="helpId"/>
+                                        <label for="inputEmail" class="form-label">អ៊ីម៉ែល</label>
+                                        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="example@gmail.com" aria-describedby="helpId"/>
                                     </div>
                                     <div class="mb-4">
-                                        <label for="" class="form-label">លេខទូរសព្ទ</label>
-                                        <input type="text" name="" id ="inputField" class="form-control" placeholder="0123456789"
-                                            aria-describedby="helpId"/>
+                                        <label for="inputPhone" class="form-label">លេខទូរសព្ទ</label>
+                                        <input type="text" name="phone" id="inputPhone" class="form-control" placeholder="0123456789" aria-describedby="helpId"/>
                                     </div>
                                     <div class="mb-4">
-                                        <label for="" class="form-label">ការបញ្ចេញមតិ</label>
-                                        <textarea class="form-control" name="" id ="inputField" rows="5" cols="10" ></textarea>
+                                        <label for="inputFeedback" class="form-label">ការបញ្ចេញមតិ</label>
+                                        <textarea class="form-control" name="feedback" id="inputFeedback" rows="5" cols="10"></textarea>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id ="inputField" />
-                                        <label class="form-check-label" for=""> ខ្ញុំបានអាននិងយល់ព្រមលើ <a
-                                                href="#">គោលការណ៍ឯកភាព</a> </label>
+                                        <input class="form-check-input" type="checkbox" value="" id="inputAgreement"/>
+                                        <label class="form-check-label" for="inputAgreement"> ខ្ញុំបានអាននិងយល់ព្រមលើ <a href="#">គោលការណ៍ឯកភាព</a> </label>
                                     </div>
                                     <div class="col-12 d-flex justify-content-center pt-4 Chenla">
-                                        <button name="" id ="" class="btn btn-outline-primary px-5 rounded-5"
-                                            role="button" onclick="handleClick()">រក្សាទុក</button>
+                                        <button type="button" id="submitButton" class="btn btn-outline-primary px-5 rounded-5" onclick="handleClick()">រក្សាទុក</button>
                                     </div>
                                 </form>
                             </div>
@@ -256,29 +250,41 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
-        function handleClick() {
-            const inputField = document.getElementById('inputField').value.trim();
+<script>
+    function handleClick() {
+        const firstName = document.getElementById('inputFirstName').value.trim();
+        const lastName = document.getElementById('inputLastName').value.trim();
+        const phone = document.getElementById('inputPhone').value.trim();
+        const feedback = document.getElementById('inputFeedback').value.trim();
+        const agreement = document.getElementById('inputAgreement').checked;
 
-            if (inputField === '') {
-                return; 
-            }else{
-                Swal.fire({
+        if (firstName && lastName && phone && feedback && agreement) {
+            Swal.fire({
                 icon: "success",
                 title: "ជោគជ័យ",
                 html: `<p class="Chenla">អរគុណសម្រាប់ការបញ្ចេញមតិ!</p>`,
                 confirmButtonText: "យល់ព្រម",
                 customClass: {
-                    confirmButton: 'btn btn-outline-primary px-5 rounded-5',
+                    confirmButton: 'btn btn-outline-primary px-5 rounded-5 Chenla',
                     title: 'Chenla'
                 },
                 buttonsStyling: false
             });
-            }
-
-            
+        } else {
+            Swal.fire({
+                icon: "error",
+                title: "បញ្ហាក្នុងការផ្ញើ",
+                html: `<p class="Chenla">សូមបំពេញព័ត៌មានទាំងអស់!</p>`,
+                confirmButtonText: "យល់ព្រម",
+                customClass: {
+                    confirmButton: 'btn btn-outline-primary px-5 rounded-5 Chenla',
+                    title: 'Chenla'
+                },
+                buttonsStyling: false
+            });
         }
-    </script>
+    }
+</script>
 </body>
 
 </html>
