@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bbb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="details">
+            <div class="track-art-box">
+                <div class="track-art"></div>
+                <img class="vinyl-arm" src="images/vinyl-arm.png" alt="">
+            </div>
+            <div class="track-name">Track Name</div>
+            <div class="track-artist">Track Artist</div>
+        </div>
+    </div>
+    <div class="music-footer">
+
+        <div class="buttonss">
+            <div class="heart_playlist">
+                <button class="heart"><i class="fa-solid fa-heart fa-heart-a"></i></button>
+                <img src="../../img/playlist-icon.png" alt="artist-icon"
+                    style="height: 22px; opacity: 0.8; position: absolute; top: 7px; cursor: pointer;">
+            </div>
+            <div class="random-track" onclick="randomTrack()">
+                <i class="fas fa-random fa-2x" title="random"></i>
+            </div>
+            <div class="prev-track" onclick="prevTrack()">
+                <i class="fa fa-step-backward fa-2x"></i>
+            </div>
+            <div class="playpause-track" onclick="playpauseTrack()">
+                <i class="fa fa-play-circle fa-5x"></i>
+            </div>
+            <div class="next-track" onclick="nextTrack()">
+                <i class="fa fa-step-forward fa-2x"></i>
+            </div>
+            <div class="repeat-track" onclick="repeatTrack()">
+                <i class="fa fa-repeat fa-2x" title="repeat"></i>
+            </div>
+        </div>
+        <div class="slider_container" style="position: absolute; top: 25px; left: 90px;">
+            <i class="fa fa-volume-down"></i>
+            <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+            <i class="fa fa-volume-up"></i>
+        </div>
+        <div class="slider_container" style="margin-top: 35px; margin-left: -35px;">
+            <div class="current-time">00:00</div>
+            <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+            <div class="total-duration">00:00</div>
+        </div>
+    </div>
+
+    <script src="bbb.js"></script>
+</body>
+</html>
