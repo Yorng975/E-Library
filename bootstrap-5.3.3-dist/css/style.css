@@ -521,7 +521,7 @@ footer .ft-list ul li {
 
 .swiper {
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 
 .swiper-slide {
@@ -553,3 +553,188 @@ footer .ft-list ul li {
 
 
 
+.music-footer {
+    height: 110px;
+
+    box-sizing: border-box;
+}
+
+.details {
+    margin-top: -155px;
+}
+
+.track-art-box {
+    position: relative;
+}
+
+.track-art {
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: rgba(83, 83, 83, 0.35) 0px 5px 15px;
+    border: 0 !important;
+}
+
+.vinyl-arm {
+    height: 200px;
+    position: absolute;
+    right: -30px;
+    top: -10px;
+    transform: rotate(-5deg);
+}
+
+.now-playing {
+    font-size: 1rem;
+}
+
+.track-name {
+    font-size: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-weight: 9000;
+}
+
+.track-artist {
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.active {
+    color: black;
+}
+
+.buttonss {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.heart_playlist {
+    position: absolute;
+    right: 120px;
+    top: 10px;
+}
+
+.heart {
+    background-color: transparent;
+    border: 0;
+    color: rgba(241, 240, 233, 0.952);
+    opacity: 0.8;
+}
+
+.fa-heart-a {
+    margin: 10px 30px;
+    font-size: 17px;
+}
+
+.heart:focus {
+    color: rgb(224, 69, 69) !important;
+
+}
+
+.repeat-track,
+.random-track,
+.playpause-track,
+.prev-track,
+.next-track {
+    font-size: 10px;
+    padding: 0 25px 15px 25px;
+    opacity: 0.8;
+    transition: opacity .2s;
+    color: rgba(241, 240, 233, 0.952);
+}
+
+.repeat-track:hover,
+.random-track:hover,
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+    opacity: 1.0;
+}
+
+.seek_slider,
+.volume_slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: rgba(204, 204, 204, 0.726);
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 10px;
+}
+
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: rgb(224, 224, 224);
+    border: 2px solid #8b7952;
+    cursor: grab;
+    border-radius: 100%;
+}
+
+.seek_slider:hover,
+.volume_slider:hover {
+    opacity: 1.0;
+}
+
+.seek_slider {
+    width: 400px;
+}
+
+.volume_slider {
+    width: 80px;
+}
+
+.current-time,
+.total-duration {
+    color: rgba(241, 240, 233, 0.952);
+    font-family: 'Bahnschrift';
+    padding: 10px;
+}
+
+i.fa-volume-down,
+i.fa-volume-up {
+    color: rgba(241, 240, 233, 0.774);
+    padding: 10px;
+}
+
+
+i,
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward,
+p {
+    cursor: pointer;
+}
+
+
+.rotate {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}

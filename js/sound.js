@@ -22,19 +22,20 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'images/Arctic_Monkeys.jpg',
-        name : 'Cartoon - Why We Lose',
-        artist : 'NCS',
+        img : '/img/banner/Untitled.png',
+        name : 'កុលាបប៉ៃលិន',
+        artist : 'ញ៉ុក ថែម',
+        
         music : 'https://raw.githubusercontent.com/ustabasiibrahim/music-player/master/assets/music/1.mp3'
     },
     {
-        img : 'images/Arctic_Monkeys.jpg',
+        img : '/Users/seyha/Documents/NU/web-developement/DSL/img/banner/Arctic_Monkeys.jpg',
         name : 'Diamond Eyes - Everything',
         artist : 'NCS',
         music : 'music/Diamond_Eyes_Everything.mp3'
     },
     {
-        img : 'images/Arctic_Monkeys.jpg',
+        img : '/Users/seyha/Documents/NU/web-developement/DSL/img/banner/Arctic_Monkeys.jpg',
         name : 'Lost Sky - Fearless',
         artist : 'NCS',
         music : 'music/Lost_Sky_Fearless.mp3'
@@ -59,25 +60,6 @@ function loadTrack(track_index){
     random_bg_color();
 }
 
-function random_bg_color(){
-    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
-    let a;
-
-    function populate(a){
-        for(let i=0; i<6; i++){
-            let x = Math.round(Math.random() * 14);
-            let y = hex[x];
-            a += y;
-        }
-        return a;
-    }
-    let Color1 = populate('#');
-    let Color2 = populate('#');
-    var angle = 'to right';
-
-    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
-    document.body.style.background = gradient;
-}
 function reset(){
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
