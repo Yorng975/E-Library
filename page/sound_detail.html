@@ -9,17 +9,16 @@
     <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/style.css">
     <link rel="stylesheet"
         href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel='stylesheet'
-        href='https://cdn-uicons.flaticon.com/2.4.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/2.4.0/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.4.0/uicons-brands/css/uicons-brands.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
-
     <header>
         <nav class="navbar navbar-light navbar-expand-xl text-white fixed-top Dangrek py-3 px-4 blue-opacity-50">
             <div class="container-fluid">
@@ -91,24 +90,28 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-8" style="margin-top: 10%;">
-                        <div class="row position-relative" >
-                            <div class="col-12 d-flex align-items-center justify-content-center flex-column" style="height: 80vh;">
-                                <div class="details Chenla d-flex align-items-center justify-content-center flex-column">
+                        <div class="row position-relative">
+                            <div class="col-12 d-flex align-items-center justify-content-center flex-column"
+                                style="height: 80vh;">
+                                <div
+                                    class="details Chenla d-flex align-items-center justify-content-center flex-column">
                                     <div class="track-art-box">
                                         <div class="track-art rounded-circle"></div>
                                         <img class="vinyl-arm" src="../img/banner/vinyl-arm.png" alt="">
                                     </div>
                                     <div class="track-name Chenla">Track Name</div>
-                                    <div class="Dangrek fs-4 pt-4">និពន្ធដោយ ៖​ <span class="track-artist Chenla"></span></div>
+                                    <div class="Dangrek fs-4 pt-4">និពន្ធដោយ ៖​ <span
+                                            class="track-artist Chenla"></span></div>
                                 </div>
                             </div>
-                            <div class="col-12 bottom-0 position-absolute px-0 pb-3 rounded-4" style="    background-color: rgba(41, 40, 39, 0.699);">
+                            <div class="col-12 bottom-0 position-absolute px-0 pb-3 rounded-4"
+                                style="    background-color: rgba(41, 40, 39, 0.699);">
                                 <div class="music-footer w-100 d-flex align-items-center justify-content-center pt-5">
                                     <div class="buttonss">
                                         <div class="heart_playlist">
-                                            <button class="heart"><i class="fa-solid fa-heart fa-heart-a"></i></button>
-                                            <img src="../../img/playlist-icon.png" alt="artist-icon"
-                                                style="height: 22px; opacity: 0.8; position: absolute; top: 7px; cursor: pointer;">
+                                            <button class="heart"><i class="fi fi-sr-heart fs-5"></i></button>
+                                            <i class="fi fi-br-list-music text-white ms-2"
+                                                style="height: 22px; opacity: 0.8; position: absolute; top: 5px; cursor: pointer;"></i>
                                         </div>
                                         <div class="random-track" onclick="randomTrack()">
                                             <i class="fas fa-random fa-2x" title="random"></i>
@@ -123,23 +126,27 @@
                                             <i class="fa fa-step-forward fa-2x"></i>
                                         </div>
                                         <div class="repeat-track" onclick="repeatTrack()">
-                                            <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                                            <i class="fi fi-br-arrows-repeat fa-2x" title="repeat"></i>
                                         </div>
                                     </div>
-                                    <div class="slider_container   position-absolute d-flex align-items-center" style=" top: 35px; left: 90px;">
+                                    <div class="slider_container   position-absolute d-flex align-items-center"
+                                        style=" top: 35px; left: 90px;">
                                         <i class="fa fa-volume-down"></i>
-                                        <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                                        <input type="range" min="1" max="100" value="99" class="volume_slider"
+                                            onchange="setVolume()">
                                         <i class="fa fa-volume-up"></i>
                                     </div>
-                                    <div class="slider_container d-flex align-items-center justify-content-center" style="margin-top: 35px; margin-left: -35px;">
+                                    <div class="slider_container d-flex align-items-center justify-content-center"
+                                        style="margin-top: 35px; margin-left: -35px;">
                                         <div class="current-time">00:00</div>
-                                        <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                                        <input type="range" min="1" max="100" value="0" class="seek_slider"
+                                            onchange="seekTo()">
                                         <div class="total-duration">00:00</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="col-xl-4 Chenla" style="margin-top: 9%;">
                         <div class="row">
@@ -165,12 +172,11 @@
                                                         <p class="my-auto">10 : 30</p>
                                                     </div>
                                                     <div class="col-5 justify-content-end d-flex">
-                                                        <button type="button"
-                                                            class="btn btn-primary w-auto">
+                                                        <button type="button" class="btn btn-primary w-auto">
                                                             heart
                                                         </button>
-                                                        <a name="" id="" class="btn btn-primary ms-2"
-                                                            href="#" role="button"> play</a>
+                                                        <a name="" id="" class="btn btn-primary ms-2" href="#"
+                                                            role="button"> play</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -197,12 +203,11 @@
                                                         <p class="my-auto">10 : 30</p>
                                                     </div>
                                                     <div class="col-5 justify-content-end d-flex">
-                                                        <button type="button"
-                                                            class="btn btn-primary w-auto">
+                                                        <button type="button" class="btn btn-primary w-auto">
                                                             heart
                                                         </button>
-                                                        <a name="" id="" class="btn btn-primary ms-2"
-                                                            href="#" role="button"> play</a>
+                                                        <a name="" id="" class="btn btn-primary ms-2" href="#"
+                                                            role="button"> play</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -229,12 +234,11 @@
                                                         <p class="my-auto">10 : 30</p>
                                                     </div>
                                                     <div class="col-5 justify-content-end d-flex">
-                                                        <button type="button"
-                                                            class="btn btn-primary w-auto">
+                                                        <button type="button" class="btn btn-primary w-auto">
                                                             heart
                                                         </button>
-                                                        <a name="" id="" class="btn btn-primary ms-2"
-                                                            href="#" role="button"> play</a>
+                                                        <a name="" id="" class="btn btn-primary ms-2" href="#"
+                                                            role="button"> play</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -261,12 +265,11 @@
                                                         <p class="my-auto">10 : 30</p>
                                                     </div>
                                                     <div class="col-5 justify-content-end d-flex">
-                                                        <button type="button"
-                                                            class="btn btn-primary w-auto">
+                                                        <button type="button" class="btn btn-primary w-auto">
                                                             heart
                                                         </button>
-                                                        <a name="" id="" class="btn btn-primary ms-2"
-                                                            href="#" role="button"> play</a>
+                                                        <a name="" id="" class="btn btn-primary ms-2" href="#"
+                                                            role="button"> play</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -293,12 +296,11 @@
                                                         <p class="my-auto">10 : 30</p>
                                                     </div>
                                                     <div class="col-5 justify-content-end d-flex">
-                                                        <button type="button"
-                                                            class="btn btn-primary w-auto">
+                                                        <button type="button" class="btn btn-primary w-auto">
                                                             heart
                                                         </button>
-                                                        <a name="" id="" class="btn btn-primary ms-2"
-                                                            href="#" role="button"> play</a>
+                                                        <a name="" id="" class="btn btn-primary ms-2" href="#"
+                                                            role="button"> play</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -325,12 +327,11 @@
                                                         <p class="my-auto">10 : 30</p>
                                                     </div>
                                                     <div class="col-5 justify-content-end d-flex">
-                                                        <button type="button"
-                                                            class="btn btn-primary w-auto">
+                                                        <button type="button" class="btn btn-primary w-auto">
                                                             heart
                                                         </button>
-                                                        <a name="" id="" class="btn btn-primary ms-2"
-                                                            href="#" role="button"> play</a>
+                                                        <a name="" id="" class="btn btn-primary ms-2" href="#"
+                                                            role="button"> play</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -357,12 +358,11 @@
                                                         <p class="my-auto">10 : 30</p>
                                                     </div>
                                                     <div class="col-5 justify-content-end d-flex">
-                                                        <button type="button"
-                                                            class="btn btn-primary w-auto">
+                                                        <button type="button" class="btn btn-primary w-auto">
                                                             heart
                                                         </button>
-                                                        <a name="" id="" class="btn btn-primary ms-2"
-                                                            href="#" role="button"> play</a>
+                                                        <a name="" id="" class="btn btn-primary ms-2" href="#"
+                                                            role="button"> play</a>
                                                     </div>
                                                 </div>
                                             </div>
