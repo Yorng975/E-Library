@@ -30,7 +30,7 @@ const music_list = [
     {
         img: '/img/banner/mealea.webp',
         name: 'មាលាដួងចិត្ត',
-        artist: 'NCS',
+        artist: 'លោន នូ ហាចS',
         music: '/sound/mealea.mp3'
     },
     {

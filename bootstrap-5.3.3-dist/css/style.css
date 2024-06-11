@@ -738,3 +738,69 @@ p {
         transform: rotate(359deg);
     }
 }
+.favourite {
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+color: #ff3d60;
+    transition: all .5s ease;
+}
+
+.favourite:focus {
+    outline: none;
+}
+
+.favourite:hover {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.favourite.liked {
+    border-color: rgb(255, 130, 153);
+    animation: shadow-grow 2s;
+}
+
+.favourite.liked .heart {
+    animation: heart-grow .7s;
+}
+
+.favourite.liked .favourite {
+    fill: #ff8299;
+}
+
+.favourite .heart {
+    fill: rgba(0, 0, 0, 0.15);
+}
+
+@keyframes shadow-grow {
+0% {
+box-shadow: 0 0;
+}
+50% {
+box-shadow: 0 0 5px 20px rgba(255, 255, 255, 0);
+}
+100% {
+box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+}
+}
+
+
+@keyframes heart-grow {
+    0% {
+        transform: scale(3);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.heart{
+    color: #b2b2b2;
+}
+.heart.active {
+    color: red;
+}
