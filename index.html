@@ -56,6 +56,14 @@
                                         class="fi fi-rr-user-pen ps-1 pe-3"></i></a>
                             </li>
                             <li class="nav-item  ">
+                                <a class="nav-link  text-dark-blue" href="#">វីឌេអូ <i
+                                        class="fi fi-rr-video-camera-alt ps-1 pe-3"></i></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link  text-dark-blue" href="#">សំឡេង <i
+                                        class="fi fi-rr-user-pen ps-1 pe-3"></i></a>
+                            </li>
+                            <li class="nav-item  ">
                                 <a class="nav-link  text-dark-blue" href="#">ចំណូលចិត្ត <i
                                         class="fi fi-rr-heart ps-1 pe-3"></i></a>
                             </li>
@@ -87,7 +95,7 @@
                 <div class="row">
                     <div class="col-7">
                         <h1 class="text-banner Dangrek fw-bolder" id="auto-type"
-                            data-type="["SL ប្រភពចំណេះដឹងសម្រាប់អ្នកទាំងអស់គ្នា"]" data-period="800"
+                            data-type='["SL ប្រភពចំណេះដឹងសម្រាប់អ្នកទាំងអស់គ្នា"]' data-period="800"
                             style="margin-top: 20%; font-size: 50px;">
                         </h1>
                         <p class="KantumruyPro fs-5 col-10 py-5 ps-4">បណ្ណាល័ DSL
@@ -337,44 +345,37 @@
                             <li class="nav-item col-2 me-5" role="presentation">
                                 <button
                                     class="nav-link active border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue category-hover"
-                                    id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
-                                    role="tab" aria-controls="home-tab-pane" aria-selected="true">ប្រលោមលោក</button>
+                                    id="one" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+                                    role="tab" aria-controls="home-tab-pane" aria-selected="true">ព្រឺព្រួច</button>
                             </li>
                             <li class="nav-item col-2 me-5" role="presentation">
                                 <button
                                     class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue category-hover"
-                                    id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                                    type="button" role="tab" aria-controls="profile-tab-pane"
-                                    aria-selected="false">ការអប់រំ</button>
+                                    id="two" data-bs-toggle="tab" data-bs-target="#two-tab-pane" type="button"
+                                    role="tab" aria-controls="profile-tab-pane" aria-selected="false">រឿងព្រេង</button>
                             </li>
                             <li class="nav-item col-2 me-5" role="presentation">
                                 <button
                                     class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue category-hover"
-                                    id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                                    id="contact-tab" data-bs-toggle="tab" data-bs-target="#three-tab-pane" type="button"
+                                    role="tab" aria-controls="contact-tab-pane"
+                                    aria-selected="false">អាថ៌កំបាំង</button>
+                            </li>
+                            <li class="nav-item col-2 me-5" role="presentation">
+                                <button
+                                    class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue category-hover"
+                                    id="contact-tab" data-bs-toggle="tab" data-bs-target="#four-tab-pane"
                                     type="button" role="tab" aria-controls="contact-tab-pane"
-                                    aria-selected="false">សម្រាប់កូនក្មេង</button>
+                                    aria-selected="false">បរទេស</button>
                             </li>
                             <li class="nav-item col-2 me-5" role="presentation">
                                 <button
                                     class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue category-hover"
-                                    id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
-                                    type="button" role="tab" aria-controls="contact-tab-pane"
-                                    aria-selected="false">សម្រាប់កូនក្មេង</button>
+                                    id="contact-tab" data-bs-toggle="tab" data-bs-target="#five-tab-pane"
+                                    type="button" role="tab" aria-controls="five-tab-pane"
+                                    aria-selected="false">សុឺបអង្កេត</button>
                             </li>
-                            <li class="nav-item col-2 me-5" role="presentation">
-                                <button
-                                    class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue category-hover"
-                                    id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
-                                    type="button" role="tab" aria-controls="contact-tab-pane"
-                                    aria-selected="false">សម្រាប់កូនក្មេង</button>
-                            </li>
-                            <li class="nav-item col-2 me-5" role="presentation">
-                                <button
-                                    class="nav-link border w-100 py-2 rounded-5 border-2 border-primary text-dark-blue category-hover"
-                                    id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
-                                    type="button" role="tab" aria-controls="contact-tab-pane"
-                                    aria-selected="false">សម្រាប់កូនក្មេង</button>
-                            </li>
+
                         </div>
                         <hr class=" border-2 my-5 opacity-100" style="border-color: #04125C;">
                         <div class="tab-content" id="myTabContent">
@@ -384,10 +385,12 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic1.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic1.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
-                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
                                                         អត្ថបទ</div>
                                                 </div>
                                             </div>
@@ -396,14 +399,16 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic2.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic2.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="overlay rounded-3 position-absolute w-100 h-100 d-flex align-items-center justify-content-center overlay-hover">
                                                     <i class="fi fi-rr-play-circle text-white icon-play"></i>
                                                 </div>
                                                 <div
                                                     class="box-overflow-hiden position-absolute z-4 rounded-5 d-flex align-items-center justify-content-center detail-btt">
-                                                    <div class="detail bg-danger bg-opacity-25 text-danger text-detail rounded-5 fs-6 KantumruyPro">
+                                                    <div
+                                                        class="detail bg-danger bg-opacity-25 text-danger text-detail rounded-5 fs-6 KantumruyPro">
                                                         វីឌេអូ</div>
                                                 </div>
                                             </div>
@@ -412,10 +417,12 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic3.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic3.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
-                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
                                                         អត្ថបទ</div>
                                                 </div>
                                             </div>
@@ -424,10 +431,12 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative ">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic4.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic4.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
-                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
                                                         អត្ថបទ</div>
                                                 </div>
                                             </div>
@@ -436,10 +445,12 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic5.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic5.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
-                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
                                                         អត្ថបទ</div>
                                                 </div>
                                             </div>
@@ -448,10 +459,12 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic6.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic6.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
-                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
                                                         អត្ថបទ</div>
                                                 </div>
                                             </div>
@@ -460,10 +473,12 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic7.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic7.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
-                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
                                                         អត្ថបទ</div>
                                                 </div>
                                             </div>
@@ -472,10 +487,12 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic8.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic8.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
-                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
                                                         អត្ថបទ</div>
                                                 </div>
                                             </div>
@@ -484,10 +501,12 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic9.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic9.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
-                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
                                                         អត្ថបទ</div>
                                                 </div>
                                             </div>
@@ -496,7 +515,8 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic10.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic10.jpeg"
+                                                    alt="Image" />
                                                 <div
                                                     class="overlay rounded-3 position-absolute w-100 h-100 d-flex align-items-center justify-content-center overlay-hover">
                                                     <i class="fi fi-rr-play-circle text-white icon-play"></i>
@@ -513,7 +533,666 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic11.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/horro/pic11.jpeg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/horro/pic12.jpeg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="mb-3 d-md-flex justify-content-end align-items-lg-center my-4">
+                                            <a name="" id=""
+                                                class="btn-new btn-1c col-2 py-1 text-decoration-none text-center rounded-5 overflow-hidden Dangrek d-flex align-items-center justify-content-center"
+                                                href="#" role="button">មើលច្រើនទៀត <i
+                                                    class="fi fi-sr-arrow-small-right fs-4 ms-2"
+                                                    style="height: 30px!important;"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                                tabindex="0">
+                                <div class="row g-3">
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l1.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l2.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="overlay rounded-3 position-absolute w-100 h-100 d-flex align-items-center justify-content-center overlay-hover">
+                                                    <i class="fi fi-rr-play-circle text-white icon-play"></i>
+                                                </div>
+                                                <div
+                                                    class="box-overflow-hiden position-absolute z-4 rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail bg-danger bg-opacity-25 text-danger text-detail rounded-5 fs-6 KantumruyPro">
+                                                        វីឌេអូ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l3.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative ">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l4.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l5.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l6.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l7.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l9.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l10.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l11.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="overlay rounded-3 position-absolute w-100 h-100 d-flex align-items-center justify-content-center overlay-hover">
+                                                    <i class="fi fi-rr-play-circle text-white icon-play"></i>
+                                                </div>
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-success bg-opacity-25 text-success rounded-5 fs-6 KantumruyPro text-detail">
+                                                        សំឡេង</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l12.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Legend/l13.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="mb-3 d-md-flex justify-content-end align-items-lg-center my-4">
+                                            <a name="" id=""
+                                                class="btn-new btn-1c col-2 py-1 text-decoration-none text-center rounded-5 overflow-hidden Dangrek d-flex align-items-center justify-content-center"
+                                                href="page/legend.html" role="button">មើលច្រើនទៀត <i
+                                                    class="fi fi-sr-arrow-small-right fs-4 ms-2"
+                                                    style="height: 30px!important;"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="three-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                                tabindex="0">L<div class="row g-3">
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s1.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s2.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="overlay rounded-3 position-absolute w-100 h-100 d-flex align-items-center justify-content-center overlay-hover">
+                                                    <i class="fi fi-rr-play-circle text-white icon-play"></i>
+                                                </div>
+                                                <div
+                                                    class="box-overflow-hiden position-absolute z-4 rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail bg-danger bg-opacity-25 text-danger text-detail rounded-5 fs-6 KantumruyPro">
+                                                        វីឌេអូ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s3.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative ">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s4.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s5.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s6.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s7.jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s8 (1).jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s8 (2).jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s8 (3).jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="overlay rounded-3 position-absolute w-100 h-100 d-flex align-items-center justify-content-center overlay-hover">
+                                                    <i class="fi fi-rr-play-circle text-white icon-play"></i>
+                                                </div>
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-success bg-opacity-25 text-success rounded-5 fs-6 KantumruyPro text-detail">
+                                                        សំឡេង</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s8 (4).jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Secrets/s8 (5).jpg"
+                                                    alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="mb-3 d-md-flex justify-content-end align-items-lg-center my-4">
+                                            <a name="" id=""
+                                                class="btn-new btn-1c col-2 py-1 text-decoration-none text-center rounded-5 overflow-hidden Dangrek d-flex align-items-center justify-content-center"
+                                                href="page/legend.html" role="button">មើលច្រើនទៀត <i
+                                                    class="fi fi-sr-arrow-small-right fs-4 ms-2"
+                                                    style="height: 30px!important;"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="four-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
+                                tabindex="0">
+                                <div class="row g-3">
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/foreign/Think-Again.jpg"
+                                                    alt="Image" style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3"
+                                                    src="img/foreign/the-story-of-philosophy-15.jpg" alt="Image"
+                                                    style="height: 290px;" />
+                                                <div
+                                                    class="overlay rounded-3 position-absolute w-100 h-100 d-flex align-items-center justify-content-center overlay-hover">
+                                                    <i class="fi fi-rr-play-circle text-white icon-play"></i>
+                                                </div>
+                                                <div
+                                                    class="box-overflow-hiden position-absolute z-4 rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail bg-danger bg-opacity-25 text-danger text-detail rounded-5 fs-6 KantumruyPro">
+                                                        វីឌេអូ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3"
+                                                    src="img/foreign/51cuLGp2oLL._SX311_BO1204203200_.jpg" alt="Image"
+                                                    style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative ">
+                                                <img class="card-img-top rounded-3"
+                                                    src="img/foreign/51vXH2JGV8L._SL500_.webp" alt="Image"
+                                                    style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3"
+                                                    src="img/foreign/51zS7cm3-5L._AC_UF1000,1000_QL80_.jpg" alt="Image"
+                                                    style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/foreign/61CV8vaK6YL.jpg"
+                                                    alt="Image" style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3"
+                                                    src="img/foreign/51w4KkeOt9L._AC_UF894,1000_QL80_.jpg" alt="Image"
+                                                    style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3"
+                                                    src="img/foreign/61BXGRlUyfL._AC_UF1000,1000_QL80_.jpg" alt="Image"
+                                                    style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3"
+                                                    src="img/foreign/61dkFYV4ShL._AC_UF1000,1000_QL80_.jpg" alt="Image"
+                                                    style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3"
+                                                    src="img/foreign/34bfd9a0-99c3-4ebf-a9eb-de18ea4f06ca.jpg"
+                                                    alt="Image" style="height: 290px;" />
+                                                <div
+                                                    class="overlay rounded-3 position-absolute w-100 h-100 d-flex align-items-center justify-content-center overlay-hover">
+                                                    <i class="fi fi-rr-play-circle text-white icon-play"></i>
+                                                </div>
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-success bg-opacity-25 text-success rounded-5 fs-6 KantumruyPro text-detail">
+                                                        សំឡេង</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3"
+                                                    src="img/foreign/513nHSQxHrL._SL500_.jpg" alt="Image"
+                                                    style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/foreign/unnamed.jpg"
+                                                    alt="Image" style="height: 290px;" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div
+                                                        class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="mb-3 d-md-flex justify-content-end align-items-lg-center my-4">
+                                            <a name="" id=""
+                                                class="btn-new btn-1c col-2 py-1 text-decoration-none text-center rounded-5 overflow-hidden Dangrek d-flex align-items-center justify-content-center"
+                                                href="page/legend.html" role="button">មើលច្រើនទៀត <i
+                                                    class="fi fi-sr-arrow-small-right fs-4 ms-2"
+                                                    style="height: 30px!important;"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="five-tab-pane" role="tabpanel"
+                                aria-labelledby="disabled-tab" tabindex="0"><div class="row g-3">
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Cypriot/c1.jpg" alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Cypriot/c2.jpg" alt="Image" />
+                                                <div
+                                                    class="overlay rounded-3 position-absolute w-100 h-100 d-flex align-items-center justify-content-center overlay-hover">
+                                                    <i class="fi fi-rr-play-circle text-white icon-play"></i>
+                                                </div>
+                                                <div
+                                                    class="box-overflow-hiden position-absolute z-4 rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div class="detail bg-danger bg-opacity-25 text-danger text-detail rounded-5 fs-6 KantumruyPro">
+                                                        វីឌេអូ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Cypriot/c3.jpg" alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative ">
+                                                <img class="card-img-top rounded-3" src="img/Cypriot/c4.jpg" alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
                                                     <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
@@ -525,7 +1204,7 @@
                                     <div class="col-xl-2">
                                         <a href="#">
                                             <div class="card card-fold rounded-3 position-relative">
-                                                <img class="card-img-top rounded-3" src="img/horro/pic12.jpeg" alt="Image" />
+                                                <img class="card-img-top rounded-3" src="img/Cypriot/c5.jpg" alt="Image" />
                                                 <div
                                                     class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
                                                     <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
@@ -534,41 +1213,70 @@
                                             </div>
                                         </a>
                                     </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Cypriot/c6.jpg" alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Cypriot/c7.jpg" alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Cypriot/c9.jpg" alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-2">
+                                        <a href="#">
+                                            <div class="card card-fold rounded-3 position-relative">
+                                                <img class="card-img-top rounded-3" src="img/Cypriot/c10.jpg" alt="Image" />
+                                                <div
+                                                    class="box-overflow-hiden position-absolute rounded-5 d-flex align-items-center justify-content-center detail-btt">
+                                                    <div class="detail px-2 bg-info bg-opacity-25 text-info rounded-5 fs-6 KantumruyPro text-detail">
+                                                        អត្ថបទ</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    
                                     <div class="col-12">
                                         <div class="mb-3 d-md-flex justify-content-end align-items-lg-center my-4">
                                             <a name="" id=""
                                                 class="btn-new btn-1c col-2 py-1 text-decoration-none text-center rounded-5 overflow-hidden Dangrek d-flex align-items-center justify-content-center"
-                                                href="#" role="button">មើលច្រើនទៀត <i class="fi fi-sr-arrow-small-right fs-4 ms-2"
+                                                href="page/cypriot.html" role="button">មើលច្រើនទៀត <i class="fi fi-sr-arrow-small-right fs-4 ms-2"
                                                     style="height: 30px!important;"></i></a>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
-                                aria-labelledby="profile-tab" tabindex="0">Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Beatae, labore eaque nobis molestiae voluptate totam odit
-                                obcaecati
-                                velit sint excepturi laborum aspernatur libero nostrum voluptatibus, veniam vitae
-                                omnis
-                                eveniet minus?</div>
-                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel"
-                                aria-labelledby="contact-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Veritatis quos blanditiis cupiditate rerum officiis veniam, quod
-                                vel
-                                tempora placeat voluptatum! Minus tempora libero facilis tempore temporibus tenetur
-                                placeat suscipit id!</div>
-                            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel"
-                                aria-labelledby="disabled-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Dolore, ad labore excepturi ipsa pariatur tempora obcaecati
-                                temporibus
-                                rem eius deserunt, nam asperiores nisi ipsam. Quod laudantium reiciendis
-                                perspiciatis ea
-                                inventore.</div>
+                                </div></div>
+                            
                         </div>
                     </div>
 
                 </div>
-            </div>
             </div>
         </section>
         <section>
@@ -655,9 +1363,6 @@
         <section>
             <div class="container py-5">
                 <div class="row">
-                    <!-- <div class="col-12">
-                        <h1 class="Dangrek pt-5 pb-3 ">អ្នកនិពន្ធ</h1>
-                    </div> -->
                     <div class="col-12">
                         <div class="mb-3 d-md-flex justify-content-between align-items-center">
                             <div class="widget-header position-relative w-100 Chenla text-dark-blue">
@@ -672,37 +1377,37 @@
                     </div>
                     <div class="col-xl-3">
                         <div class="card text-start p-3 rounded-4">
-                            <img class="card-img-top object-fit-cover rounded-5" src="2 Vikas Khanna.jpg" alt="Title"
+                            <img class="card-img-top object-fit-cover rounded-5" src="img/Author/Nou Hach.jpg" alt="Title"
                                 height="300px" />
                             <div class="card-body">
-                                <h4 class="card-title Dangrek text-center">Yorng Seyha</h4>
+                                <h4 class="card-title Dangrek text-center">នូ ហាច</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3">
                         <div class="card text-start p-3 rounded-4">
-                            <img class="card-img-top object-fit-cover rounded-5" src="2 Vikas Khanna.jpg" alt="Title"
+                            <img class="card-img-top object-fit-cover rounded-5" src="img/Author/Nhok Them.jpg" alt="Title"
                                 height="300px" />
                             <div class="card-body">
-                                <h4 class="card-title Dangrek text-center">Yorng Seyha</h4>
+                                <h4 class="card-title Dangrek text-center">ញ៉ុក ថែម</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3">
                         <div class="card text-start p-3 rounded-4">
-                            <img class="card-img-top object-fit-cover rounded-5" src="2 Vikas Khanna.jpg" alt="Title"
+                            <img class="card-img-top object-fit-cover rounded-5" src="img/Author/Roem Kin.jpg" alt="Title"
                                 height="300px" />
                             <div class="card-body">
-                                <h4 class="card-title Dangrek text-center">Yorng Seyha</h4>
+                                <h4 class="card-title Dangrek text-center">រីម គីន</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3">
                         <div class="card text-start p-3 rounded-4">
-                            <img class="card-img-top object-fit-cover rounded-5" src="2 Vikas Khanna.jpg" alt="Title"
+                            <img class="card-img-top object-fit-cover rounded-5" src="img/Author/Ngoun Som.jpg" alt="Title"
                                 height="300px" />
                             <div class="card-body">
-                                <h4 class="card-title Dangrek text-center">Yorng Seyha</h4>
+                                <h4 class="card-title Dangrek text-center">ភិក្ខុ ងូន សោម</h4>
                             </div>
                         </div>
                     </div>
@@ -710,7 +1415,8 @@
                         <div class="mb-3 d-md-flex justify-content-end align-items-lg-center my-4">
                             <a name="" id=""
                                 class="btn-new btn-1c col-2 py-1 text-decoration-none text-center rounded-5 overflow-hidden Dangrek d-flex align-items-center justify-content-center"
-                                href="#" role="button">មើលច្រើនទៀត <i class="fi fi-sr-arrow-small-right fs-4 ms-2"
+                                href="page/writer.html" role="button">មើលច្រើនទៀត <i
+                                    class="fi fi-sr-arrow-small-right fs-4 ms-2"
                                     style="height: 30px!important;"></i></a>
                         </div>
                     </div>
