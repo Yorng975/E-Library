@@ -46,7 +46,9 @@ body {
 .blue-opacity-100 {
     background-color: #1941BA;
 }
-
+.text-active{
+    color: #316FF6!important;
+}
 .blue-opacity-75 {
     background-color: #316FF6;
 }
@@ -803,4 +805,12 @@ box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
 }
 .heart.active {
     color: red;
+}
+.hover-padding{
+    transition: 0.5s;
+}
+.hover-padding:hover{
+    padding-left: 40px;
+    transition: 0.5s;
+    background-color: transparent;
 }
