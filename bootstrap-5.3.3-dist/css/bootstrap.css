@@ -8450,6 +8450,8 @@ textarea.form-control-lg {
 
 .text-start {
   text-align: left !important;
+}.text-justify {
+  text-align: justify !important;
 }
 
 .text-end {
@@ -8875,6 +8877,10 @@ textarea.form-control-lg {
 
 .bg-opacity-10 {
   --bs-bg-opacity: 0.1;
+}
+
+.bg-opacity-15 {
+  --bs-bg-opacity: 0.15;
 }
 
 .bg-opacity-25 {

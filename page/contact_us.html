@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/style.css">
+    <link rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/2.4.0/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.4.0/uicons-brands/css/uicons-brands.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: rgba(221, 221, 221, .5);">
+
+    <header>
+        <nav class="navbar navbar-light navbar-expand-xl text-white fixed-top Dangrek py-3 px-4 blue-opacity-50">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo/Group 1 (1).png" width="85px" alt="">
+                </a>
+                <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            Offcanvas
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav mx-auto fs-7">
+                            <li class="nav-item   justify-content-center">
+                                <a class="nav-link  active text-dark-blue link-hover" aria-current="page"
+                                    href="../index.html">ទំព័រដើម <i class="fi fi-rr-home ps-1 pe-3"></i></a>
+                            </li>
+                            <li class="nav-item  dropdown">
+                                <a class="nav-link  text-dark-blue link-hover" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">ប្រភេទអត្ថបទ <i
+                                        class="fi fi-rr-angle-double-small-down ps-1 pe-3"></i></a>
+                                <div class="dropdown-menu blue-opacity-75" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item text-white hover-padding " href="../page/horror.html">ព្រឺព្រួច</a>
+                                    <a class="dropdown-item text-white hover-padding py-3" href="../page/cypriot.html">សុឺបអង្កេត</a>
+                                    <a class="dropdown-item text-white hover-padding " href="../page/foreign.html">បរទេស</a>
+                                    <a class="dropdown-item text-white hover-padding py-3" href="../page/legend.html">រឿងព្រេង</a>
+                                    <a class="dropdown-item text-white hover-padding " href="../page/secret.html">អាថ៌កំបាំង</a>
+                                </div>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link  text-dark-blue link-hover" href="../page/writer.html">អ្នកនិពន្ធ <i
+                                        class="fi fi-rr-user-pen ps-1 pe-3"></i></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link  text-dark-blue link-hover" href="../page/video.html">វីឌេអូ <i
+                                        class="fi fi-rr-film ps-1 pe-3"></i></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link  text-dark-blue link-hover" href="../page/sound.html">សំឡេង <i
+                                        class="fi fi-rr-waveform-path ps-1 pe-3"></i></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link  text-dark-blue link-hover" href="../page/favorite.html">ចំណូលចិត្ត <i
+                                        class="fi fi-rr-heart ps-1 pe-3"></i></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link  text-dark-blue link-hover text-active" href="../page/contact_us.html">ទំនាក់ទំនង <i
+                                        class="fi fi-rr-mobile-button ps-1 pe-3"></i></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link w-100 py-2  text-dark-blue link-hover" href="../page/about_us.html">អំពីយើង <i
+                                        class="fi fi-rr-users-alt ps-1 pe-3"></i></a>
+                            </li>
+                        </ul>
+                        <form class="d-flex position-relative">
+                            <i class="fi fi-rr-search position-absolute" style="top: 30%; left: 12px;"></i>
+                            <input class="form-control me-2 rounded-5 shadow-none KantumruyPro"
+                                style="width: 300px; padding-left: 35px;" type="search" placeholder="ស្វែងរក...."
+                                aria-label="Search" />
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container my-5 py-5 px-4 px-md-0" style="margin-top: 7%!important;">
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-xl-9 col-md-12">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 bg-white p-4 Chenla rounded-5 col-lg-6 col-md-8">
+                                <form action="">
+                                    <div class="col-12">
+                                        <h1 class="py-3 text-center fw-bolder">តោះបញ្ចេញមតិ!</h1>
+                                        <p>សូមធ្វើការបំពេញព័ត៌មានខាងក្រោមដើម្បីផ្ដល់មិតិ ឬក៏មានចម្ងល់ផ្សេងៗ។ ពួកយើងរីករាយក្នុងការឆ្លើយតបពេញ ២៤ម៉ោង។</p>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row mb-4">
+                                        <div class="col-12 col-md-6">
+                                            <div class="">
+                                                <label for="inputFirstName" class="form-label">គោត្តនាម</label>
+                                                <input type="text" name="firstName" id="inputFirstName" class="form-control" placeholder="គោត្តនាម" aria-describedby="helpId"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                                            <div class="">
+                                                <label for="inputLastName" class="form-label">នាមខ្លួន</label>
+                                                <input type="text" name="lastName" id="inputLastName" class="form-control" placeholder="នាមខ្លួន" aria-describedby="helpId"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="inputEmail" class="form-label">អ៊ីម៉ែល</label>
+                                        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="example@gmail.com" aria-describedby="helpId"/>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="inputPhone" class="form-label">លេខទូរសព្ទ</label>
+                                        <input type="text" name="phone" id="inputPhone" class="form-control" placeholder="0123456789" aria-describedby="helpId"/>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="inputFeedback" class="form-label">ការបញ្ចេញមតិ</label>
+                                        <textarea class="form-control" name="feedback" id="inputFeedback" rows="5" cols="10"></textarea>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="inputAgreement"/>
+                                        <label class="form-check-label" for="inputAgreement"> ខ្ញុំបានអាននិងយល់ព្រមលើ <a href="#">គោលការណ៍ឯកភាព</a> </label>
+                                    </div>
+                                    <div class="col-12 d-flex justify-content-center pt-4 Chenla">
+                                        <button type="button" id="submitButton" class="btn btn-outline-primary px-5 rounded-5" onclick="handleClick()">រក្សាទុក</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class=" col-12 col-lg-6 col-md-8" style="padding-left: 3%;">
+                                <div class="row">
+                                    <div class="col-12 bg-danger px-0 rounded-5 overflow-hidden d-none d-lg-block">
+                                        <img src="../img/banner/seyha12.png" class="object-fit-cover "
+                                            alt="image desc" />
+                                    </div>
+                                    <div class="col-12 p-4 bg-white rounded-5 mt-3">
+                                        <div class="row gy-3 px-2 Chenla">
+                                            <div class="col-12 rounded-4" style="background-color: rgb(247, 247, 247);">
+                                                <div class="row d-flex align-items-center">
+                                                    <div class="col-2 ">
+                                                        <div
+                                                            class="circle-icon-contac-us bg-primary bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center fs-4">
+                                                            <i class="fi fi-rr-envelope text-primary"
+                                                                style="height: 30px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-10">
+                                                        <h5 class="mt-3">អ៊ីម៉ែល</h5>
+                                                        <p class="mb-2">dsl52024@gmail.com</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 rounded-4" style="background-color: rgb(247, 247, 247);">
+                                                <div class="row d-flex align-items-center">
+                                                    <div class="col-2 ">
+                                                        <div
+                                                            class="circle-icon-contac-us bg-primary bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center fs-4">
+                                                            <i class="fi fi-rr-phone-call text-primary"
+                                                                style="height: 30px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-10">
+                                                        <h5 class="mt-2">លេខទូរសព្ទ</h5>
+                                                        <p class="mb-2">015 33 46 56</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 rounded-4" style="background-color: rgb(247, 247, 247);">
+                                                <div class="row d-flex align-items-center">
+                                                    <div class="col-2 ">
+                                                        <div
+                                                            class="circle-icon-contac-us bg-primary bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center fs-4">
+                                                            <i class="fi fi-brands-telegram text-primary"
+                                                                style="height: 30px;"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-10">
+                                                        <h5 class="mt-2">តេលេក្រាម</h5>
+                                                        <p class="mb-2">@dsl_123</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <footer class="mt-5">
+        <div class="container-fluid d-flex align-items-center Chenla  bg-curve">
+            <div class="container pt-5">
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0" data-aos="fade-right">
+                        <div class="ft-left">
+                            <div class="ft-logo text-white fw-bolder">
+                                <img src="../img/logo/Group 1 (1).png" class="img-fluid py-2" width="130px">
+                            </div>
+                            <p class="text-black">Digital Stacks Library.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0" data-aos="zoom-in">
+                        <div class="ft-center">
+                            <span class="h4 fw-bolder Dangrek">Quik link</span>
+                            <div class="ft-list">
+                                <ul class="list-unstyled mt-2 ms-3 ">
+                                    <li>&#8594; <a href="../page/horror.html" class="text-dark-blue text-decoration-none">ព្រឺព្រួច</a></li>
+                                    <li>&#8594; <a href="../page/cypriot.html" class="text-dark-blue text-decoration-none">សុឺបអង្កេត</a></li>
+                                    <li>&#8594; <a href="../page/foreign.html" class="text-dark-blue text-decoration-none">បរទេស</a></li>
+                                    <li>&#8594; <a href="../page/legend.html" class="text-dark-blue text-decoration-none">រឿងព្រេង</a></li>
+                                    <li>&#8594; <a href="../page/secret.html" class="text-dark-blue text-decoration-none">អាថ៌កំបាំង</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+                        <div class="ft-right">
+                            <span class="h5 text-dark-blue fw-bolder p-2">ទំនាក់ទំនង</span>
+                            <div class="isocial mt-3">
+                                <a href="https://www.facebook.com"><i
+                                        class="bi bi-facebook text-dark-blue"></i></a>
+                                <a href="https://www.messenger.com"><i
+                                        class="bi bi-messenger mx-2 text-dark-blue"></i></a>
+                                <a href="https://t.me/telegram"><i class="bi bi-telegram text-dark-blue"></i></a>
+                                <a href="https://t.me/instagram"><i class="bi bi-instagram mx-2 text-dark-blue"></i></a><a
+                                    href="https://t.me/twitter"><i class="bi bi-twitter-x text-dark-blue"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center text-muted mt-5 p-2">Copyright &#169; 2024 DSL. All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function handleClick() {
+        const firstName = document.getElementById("inputFirstName").value.trim();
+        const lastName = document.getElementById("inputLastName").value.trim();
+        const phone = document.getElementById("inputPhone").value.trim();
+        const feedback = document.getElementById("inputFeedback").value.trim();
+        const agreement = document.getElementById("inputAgreement").checked;
+
+        if (firstName && lastName && phone && feedback && agreement) {
+            Swal.fire({
+                icon: "success",
+                title: "ជោគជ័យ",
+                html: `<p class="Chenla">អរគុណសម្រាប់ការបញ្ចេញមតិ!</p>`,
+                confirmButtonText: "យល់ព្រម",
+                customClass: {
+                    confirmButton: "btn btn-outline-primary px-5 rounded-5 Chenla",
+                    title: "Chenla"
+                },
+                buttonsStyling: false
+            });
+        } else {
+            Swal.fire({
+                icon: "error",
+                title: "បញ្ហាក្នុងការផ្ញើ",
+                html: `<p class="Chenla">សូមបំពេញព័ត៌មានទាំងអស់!</p>`,
+                confirmButtonText: "យល់ព្រម",
+                customClass: {
+                    confirmButton: "btn btn-outline-primary px-5 rounded-5 Chenla",
+                    title: "Chenla"
+                },
+                buttonsStyling: false
+            });
+        }
+    }
+</script>
+</body>
+
+</html>
