@@ -66,7 +66,7 @@ body {
 }
 
 .blob {
-  background-image: url(../../img/banner/Untitled.png);
+  background-image: url(../../img/banner/banner1.png);
   width: 500px;
   height: 500px;
   background-size: cover;
@@ -828,4 +828,21 @@ p {
   padding-left: 40px;
   transition: 0.5s;
   background-color: transparent;
+}
+
+.fs-50{
+  font-size: 50px;
+}
+.fs-24{
+  font-size: 40px;
+}
+@media (max-width: 768px) {
+  .fs-50{
+    font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .fs-50{
+    font-size: 30px;
+  }
 }
