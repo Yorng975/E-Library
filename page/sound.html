@@ -19,6 +19,9 @@
     <link rel='stylesheet'
         href='https://cdn-uicons.flaticon.com/2.4.0/uicons-solid-straight/css/uicons-solid-straight.css'>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 <body>
@@ -69,7 +72,7 @@
                                         class="fi fi-rr-film ps-1 pe-3"></i></a>
                             </li>
                             <li class="nav-item  ">
-                                <a class="nav-link  text-dark-blue link-hover" href="../page/sound.html">សំឡេង <i
+                                <a class="nav-link  text-dark-blue link-hover text-active" href="../page/sound.html">សំឡេង <i
                                         class="fi fi-rr-waveform-path ps-1 pe-3"></i></a>
                             </li>
                             <li class="nav-item  ">
@@ -105,7 +108,7 @@
             <div class="container-fluid bg-danger bg-opacity-25 mt-4 mx-0 px-0 position-relative py-5">
                 <div class="container ">
                     <div class="row d-flex align-items-center">
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-6 animate__animated animate__bounce animate__backInLeft" >
                             <h1 class="Chenla fw-bolder" style="font-size: 50px; line-height: 80px;">
                                 រីករាយជាមួយការស្ដាប់អំណាន សម្រាប់អ្នកខ្ជិលអានទាំងអស់គ្នា</h1>
                             <p class="Chenla py-4 ps-0 ps-md-5">
@@ -162,7 +165,7 @@
                                                 class="nav-link active w-100 my-1 bg-info bg-opacity-10 text-start text-info fw-bolder border-0 rounded-2"
                                                 id="one-tab" data-bs-toggle="tab" data-bs-target="#one" type="button"
                                                 role="tab" aria-controls="one" aria-selected="true">
-                                                ភាគទី ១
+                                                ប្រលោមលោក
                                             </button>
                                         </li>
                                         <li class="nav-item col-12" role="presentation">
@@ -170,7 +173,7 @@
                                                 class="nav-link w-100 my-1 bg-primary bg-opacity-10 text-start text-primary fw-bolder border-0 rounded-2"
                                                 id="two-tab" data-bs-toggle="tab" data-bs-target="#two" type="button"
                                                 role="tab" aria-controls="two" aria-selected="false">
-                                                ភាគទី ២
+                                                អាជីកម្ម
                                             </button>
                                         </li>
                                         <li class="nav-item col-12" role="presentation">
@@ -178,7 +181,7 @@
                                                 class="nav-link w-100 my-1 bg-warning bg-opacity-10 text-start text-warning fw-bolder border-0 rounded-2"
                                                 id="three-tab" data-bs-toggle="tab" data-bs-target="#three"
                                                 type="button" role="tab" aria-controls="three" aria-selected="false">
-                                                ភាគទី ៣
+                                                ការអប់រំ
                                             </button>
                                         </li>
                                         <li class="nav-item col-12" role="presentation">
@@ -186,7 +189,7 @@
                                                 class="nav-link w-100 my-1 bg-success bg-opacity-10 text-start text-success fw-bolder border-0 rounded-2"
                                                 id="four-tab" data-bs-toggle="tab" data-bs-target="#four" type="button"
                                                 role="tab" aria-controls="four" aria-selected="false">
-                                                ភាគទី ៤
+                                                ទំនាក់ទំនង
                                             </button>
                                         </li>
                                         <li class="nav-item col-12" role="presentation">
@@ -194,7 +197,7 @@
                                                 class="nav-link w-100 my-1 bg-primary bg-opacity-10 text-start text-primary fw-bolder border-0 rounded-2"
                                                 id="five-tab" data-bs-toggle="tab" data-bs-target="#five" type="button"
                                                 role="tab" aria-controls="five" aria-selected="false">
-                                                ភាគទី ៥
+                                                សង្គម
                                             </button>
                                         </li>
                                         <li class="nav-item col-12" role="presentation">
@@ -202,7 +205,7 @@
                                                 class="nav-link w-100 my-1 bg-warning bg-opacity-10 text-start text-warning fw-bolder border-0 rounded-2"
                                                 id="six-tab" data-bs-toggle="tab" data-bs-target="#six" type="button"
                                                 role="tab" aria-controls="six" aria-selected="false">
-                                                ភាគទី ៦
+                                                ហិរញ្ញវត្ថុ
                                             </button>
                                         </li>
                                         <li class="nav-item col-12" role="presentation">
@@ -210,7 +213,7 @@
                                                 class="nav-link w-100 my-1 bg-danger bg-opacity-10 text-start text-danger fw-bolder border-0 rounded-2"
                                                 id="seven-tab" data-bs-toggle="tab" data-bs-target="#seven"
                                                 type="button" role="tab" aria-controls="seven" aria-selected="false">
-                                                ភាគទី ៧
+                                                រឿងព្រេង
                                             </button>
                                         </li>
                                     </ul>
@@ -226,15 +229,15 @@
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="one" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
-                                            <div class="col-xl-12">
+                                            <div class="col-xl-12" data-aos="fade-left" data-aos-duration="1000">
                                                 <div class="card mb-3">
-                                                    <div class="row g-0 d-flex align-items-center">
+                                                    <div class="row g-0 d-flex align-items-center" >
                                                         <div class="col-md-1 col-2">
                                                             <img src="../img/banner/pka.jpeg"
                                                                 class="img-fluid rounded-start object-fit-cover"
                                                                 style="height: 100px!important;" alt="...">
                                                         </div>
-                                                        <div class="col-md-11 col-10">
+                                                        <div class="col-md-11 col-10" >
                                                             <div class="card-body">
                                                                 <div class="row d-flex align-items-center">
                                                                     <div class="col-6 col-md-4">
@@ -265,7 +268,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-12">
+                                            <div class="col-xl-12" data-aos="fade-right" data-aos-duration="1000">
                                                 <div class="card mb-3">
                                                     <div class="row g-0 d-flex align-items-center">
                                                         <div class="col-md-1 col-2">
@@ -304,7 +307,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-12">
+                                            <div class="col-xl-12" data-aos="fade-left" data-aos-duration="1000">
                                                 <div class="card mb-3">
                                                     <div class="row g-0 d-flex align-items-center">
                                                         <div class="col-md-1 col-2">
@@ -343,7 +346,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-12">
+                                            <div class="col-xl-12" data-aos="fade-right" data-aos-duration="1000">
                                                 <div class="card mb-3">
                                                     <div class="row g-0 d-flex align-items-center">
                                                         <div class="col-md-1 col-2">
@@ -383,7 +386,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-12">
+                                            <div class="col-xl-12" data-aos="fade-left" data-aos-duration="1000">
                                                 <div class="card mb-3">
                                                     <div class="row g-0 d-flex align-items-center">
                                                         <div class="col-md-1 col-2">
@@ -422,7 +425,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-12">
+                                            <div class="col-xl-12" data-aos="fade-left" data-aos-duration="1000">
                                                 <div class="card mb-3">
                                                     <div class="row g-0 d-flex align-items-center">
                                                         <div class="col-md-1 col-2">
@@ -461,8 +464,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-
-
                                         </div>
                                     </div>
                                     <div class="tab-pane" id="two" role="tabpanel" aria-labelledby="two-tab">
@@ -702,11 +703,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        
-                                        
-                                            
                                         </div>
-                                        
                                     </div>
                                     <div class="tab-pane" id="three" role="tabpanel" aria-labelledby="messages-tab">
                                         <div class="row">
@@ -1023,7 +1020,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        
                                         </div>
                                         
                                     </div>
@@ -1342,9 +1338,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        
                                         </div>
-                                        
                                     </div>
                                     <div class="tab-pane" id="five" role="tabpanel" aria-labelledby="messages-tab">
                                         <div class="row">
@@ -1622,9 +1616,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            
                                         </div>
-                                        
                                     </div>
                                     <div class="tab-pane" id="six" role="tabpanel" aria-labelledby="messages-tab">
                                         <div class="row">
@@ -1902,12 +1894,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            
                                         </div>
-                                        
                                     </div>
                                     <div class="tab-pane" id="seven" role="tabpanel" aria-labelledby="messages-tab">
-
                                         <div class="row">
                                             <div class="col-xl-12">
                                                 <div class="card mb-3">
@@ -2105,8 +2094,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            
-                                            
                                         </div>
                                         
                                     </div>
@@ -2218,7 +2205,7 @@
         <div class="container-fluid d-flex align-items-center Chenla  bg-curve">
             <div class="container pt-5">
                 <div class="row mt-5">
-                    <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0" data-aos="fade-right">
+                    <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0">
                         <div class="ft-left">
                             <div class="ft-logo text-white fw-bolder">
                                 <img src="../img/logo/Group 1 (1).png" class="img-fluid py-2" width="130px">
@@ -2226,7 +2213,7 @@
                             <p class="text-black">Digital Stacks Library.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0" data-aos="zoom-in">
+                    <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0">
                         <div class="ft-center">
                             <span class="h4 fw-bolder Dangrek">Quik link</span>
                             <div class="ft-list">
@@ -2264,8 +2251,10 @@
 
     <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
     <script src="../js/scroll_card.js"></script>
-    <script src="../js/favourite.js">
-
+    <script src="../js/favourite.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </body>
 
