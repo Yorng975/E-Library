@@ -856,4 +856,13 @@ p {
   .btn-heart{
     top: 50px!important;
   }
+  .mt-20rs{
+    margin-top: 20%!important;
+  }
+  .mt-25rs{
+    margin-top: 25%!important;
+  }
+  .mt-35rs{
+    margin-top: 35%!important;
+  }
 }
